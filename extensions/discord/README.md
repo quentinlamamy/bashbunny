@@ -13,6 +13,7 @@ A discord exfiltration extension
 **This bashbunny extension provide exfiltration of text and files through discord webhook**
 </div>
 
+<img width="1000" alt="demoGif" src="https://raw.githubusercontent.com/quentinlamamy/bashbunny/main/img/discordExfiltration.gif"/>
 
 # Documentation
 
@@ -28,8 +29,6 @@ DISCORD_WEBHOOK_TOKEN="<DISCORD_WEBHOOK_TOKEN>"
 
 Initialize the exfiltration session by posting an embed message on discord with host information
 This command need ```$BB_HOST_OS, $BB_HOST_IP_V4, $BB_HOST_IP_V6, BB_HOST_IP_USER``` variables to be set (Set by default if you use my OSX extension)
-
-<img width="300" alt="image" src="https://github.com/quentinlamamy/bashbunny/blob/23c6dc74f5e719e2f6fb067a96c493ca03947992/img/discord_embed.png?raw=true">
 
 ## DISCORD SEND MSG
 
