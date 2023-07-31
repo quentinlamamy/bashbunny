@@ -23,10 +23,9 @@ By emulating combinations of trusted USB devices — like gigabit Ethernet, seri
 
 # Extensions
 
-* [Discord Exfiltration]()
+* [Discord Exfiltration](https://github.com/quentinlamamy/bashbunny/tree/main/extensions)
 
 # Payloads
-
 
 # Support
 <a href="https://www.buymeacoffee.com/quentinlamamy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
