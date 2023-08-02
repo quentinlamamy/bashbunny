@@ -1,16 +1,17 @@
 <div align="center">
 
 # Discord Exfiltration
+**This bashbunny extension provide exfiltration of text and files through discord webhook**
 
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Quack](https://img.shields.io/badge/Ducky_Script-121011?style=for-the-badge&logo=duck&logoColor=white)
 
-A discord exfiltration extension
+![OSX](https://img.shields.io/badge/OSX-FFFFFF?style=for-the-badge&logo=apple&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-357EC7?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-eab838?style=for-the-badge&logo=linux&logoColor=white)
 
 [Documentation](#documentation) • [Changelog](#changelog) • [Contributing](#contributing) • [License](#license)  . [Support](#support)
 
-
-**This bashbunny extension provide exfiltration of text and files through discord webhook**
 </div>
 
 <img width="1000" alt="demoGif" src="https://raw.githubusercontent.com/quentinlamamy/bashbunny/main/img/discordExfiltration.gif"/>
