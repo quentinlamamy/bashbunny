@@ -6,6 +6,8 @@
 # Version:       1.0
 # Category:      Exfiltration
 # Attackmodes:   HID STORAGE
+# Target OS:     OSX
+# Dependency:    OSX Extensions
 #
 # Magenta solid           Setup
 # Yellow single blink     Attack in progress
