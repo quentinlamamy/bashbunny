@@ -12,7 +12,6 @@
 
 <img width="1000" alt="banner" src="https://raw.githubusercontent.com/quentinlamamy/bashbunny/main/img/githubExfiltration.jpg"/>
 
-
 # Changelog
 v1.0 : 
 * :tada: Release on 2023/08/20

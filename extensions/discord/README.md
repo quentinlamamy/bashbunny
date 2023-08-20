@@ -17,6 +17,7 @@
 <img width="1000" alt="demoGif" src="https://raw.githubusercontent.com/quentinlamamy/bashbunny/main/img/discordExfiltration.gif"/>
 
 # Documentation
+> This extension need a terminal opened on target side
 
 >To use this extension, you need to create a webhook on discord and get the webhook id and token
 During your setup steps, you need to set the DISCORD_WEBHOOK_ID and DISCORD_WEBHOOK_TOKEN variables
